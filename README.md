@@ -28,7 +28,7 @@ A single global cyclone baseline would miss these regional differences. The reco
 
 ## How to run
 
-Notebooks 02–04 run standalone from the processed parquets already checked in under `data/processed/`. Notebook 01 rebuilds those parquets from the raw TropiCycloneNet Data1D files, which are not shipped in this repo; download them from the dataset's source and place under `data/raw/TCND_Data1D/Data1D/` if you want to re-run the loader.
+Notebooks 02–04 run standalone from the processed parquets already checked in under `data/processed/`. Notebook 01 rebuilds those parquets from the raw TropiCycloneNet Data1D files, which are not shipped in this repo, download them from the dataset's source and place under `data/raw/TCND_Data1D/Data1D/` if you want to re-run the loader.
 
 ```bash
 pip install -r requirements.txt
