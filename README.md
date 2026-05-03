@@ -26,6 +26,12 @@ A single global cyclone baseline would miss these regional differences. The reco
 - `notebooks/04_exposure_duration_risk.ipynb` — translation-speed analysis with a persistence cross-check.
 - `data/processed/` — storm-level and timestep-level parquet files used by notebooks 02–04.
 
+## Presentation
+
+The interview presentation is available here:
+
+[presentation/Daniel_Budina_Presentation_Bending_Spoons.pdf](presentation/Daniel_Budina_Presentation_Bending_Spoons.pdf)
+
 ## How to run
 
 Notebooks 02–04 run standalone from the processed parquets already checked in under `data/processed/`. Notebook 01 rebuilds those parquets from the raw TropiCycloneNet Data1D files, which are not shipped in this repo, download them from the dataset's source and place under `data/raw/TCND_Data1D/Data1D/` if you want to re-run the loader.
